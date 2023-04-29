@@ -4,12 +4,6 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Secondly, the specific tasks present in the assessement are the following:
 
-- **1. Project =>** A restful API that includes the following requirements:
-
-  - Each user will have a unique id, and he will authenticate using a non-empty email and a password.
-  - Each user will be able to save a list of favs. Each fav will have an title , description and link, and each list will be defined by a unique id and a name.
-  - The system have to allow the following actions - Create a new list with a given name (auto-generate the unique id) - Get the users lists - Get an individual list for the user - Add items to a given list (based on the generated id) - All endpoints have to be secured with Bearer Auth (JWT) - Ensure that the password is strong enough
-    <br /><br />
 
 <br /> <br />
 
@@ -30,7 +24,8 @@ Regards on the users behalf. Keep in mind that is a must to put a connection bet
 and/or a plattorm database for PostgreSQL (PgAdmin). Otherwise, proyect will not start.
 
 ### **Basic Commands**
-
+       
+      npm i 
       npm run dev //To initialize the server
       npx prisma studio //To enable Prisma Studio plattorm
       npm run prisma:seed //To fill the seeder with any info you want
